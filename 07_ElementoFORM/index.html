@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemento FORM</title>
+</head>
+
+<body>
+    <!--estrutura elemento do form-->
+    <form action="vitorleoni39@gmail.com">
+        <input required/> 
+        <input type="submit" name="Sorry" value="Enviar"/>
+    <!--tipos checkbox e radio-->
+        <P>Escolha o Estado que voce quer morar</P>
+        <label for="cid">Toronto</label>
+        <input id="cid" type="checkbox"/> 
+
+        <label for="cid">Texas</label>
+        <input id="cid" type="checkbox"/>
+     <!--valor do radio atributo type-->  
+        <p>Selecionar a Vacina </p>
+
+        <label for="meg">Megatron</label>
+        <input id="meg" type="radio" name="tipo"/>
+
+        <label for="bom">Bombombi</label>
+        <input id="bom" type="radio" name="tipo"/>
+
+        <label for="iro">Bombeiro</label>
+        <input id="iro" type="radio" name="tipo"/>
+
+        <!--Elemento select  datalist e option-->
+       
+        <label for="pão">Escolha seu Pão</label>
+        <select name="pão" id="pão">
+            <option value="forma">Forma</option>
+            <option value="bronha">Bronha</option>
+            <option value="Françes">Françes</option>
+            <option value="Baguete">Baguete</option>
+        </select>
+        
+        
+            <label for="times">Times sem Mundial</label>
+            <input autocomplete="on" list="time" name="times" id="time">
+            <datalist id="time">
+            <option value="Penapolence">Penapolence</option>
+            <option value="Portuguesa">Portuguesa</option>
+            <option value="Palmeiras">Palmeiras</option>
+            <option value="Chápeconhece">Chápeconhece</option>
+            <option value="Piaui">Piaui</option>
+          </datalist>
+    </form>
+</body>
+
+</html>
