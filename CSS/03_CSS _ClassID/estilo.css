@@ -1,0 +1,115 @@
+body{
+    
+    background-color: rgb(28, 31, 26);
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(167, 167, 31);
+    color: rgb(0, 0, 2);
+    text-shadow: 3px 3px 5px;
+}
+
+.pipoca{
+    color: blue;
+}
+
+.pipoca1{
+    color: brown;
+}
+
+.pipoca2{
+    color: aqua;
+}
+
+.pipoca3{
+    color: rgb(54, 121, 68);
+}
+
+.pipoca4{
+    color: rgb(156, 17, 184);
+}
+
+ul{
+    cursor: pointer;
+}
+
+/* segundo exercicio */
+
+.h{
+   
+    color: blue;
+    border: 2px solid gray;
+    text-align: center;
+    text-shadow: 3px 3px 5px;
+}
+
+.paragrafo{
+    background-color: beige;
+    color: gray;
+    border: 2px solid greenyellow;
+}
+
+.cinema{
+    width: 150px;
+    height: 125px;
+    border-radius: 18px;
+    background-color: rgba(75, 88, 88, 0.37);
+}
+
+h3{
+    background-color: antiquewhite;
+    color: brown;
+    border: 2px solid gray;
+    text-align: center;
+}
+
+.volta{
+    color: antiquewhite;
+}
+
+.predador{
+    color: aqua;
+}
+
+.batman{
+    color: blue;
+}
+
+/* sesão id */
+
+#paodequeijo{
+    background-color: blueviolet;
+} 
+
+.bill{
+    background-color: antiquewhite;
+    color: rgb(16, 182, 24);
+    border: 2px solid gray;
+    text-align: center;
+}
+
+.bora{ 
+    background-color: black;
+    color: blueviolet;
+}
+
+/* sesão article */
+
+#segundoNome{
+    background-color: darkmagenta;
+    text-align: center;
+}
+
+#primeiro-nome{
+    background-color: forestgreen;
+    text-align: center;
+}
+
+
+article h4{
+    text-align: center;
+    border: 2px solid indigo;
+    font-size: 26px;
+    background-color: aliceblue;
+}
