@@ -1,0 +1,33 @@
+*{
+    font-family: Arial, Helvetica, sans-serifs;
+} 
+
+body{
+    background-color: bisque;
+    color: #191970;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+p{
+    background-color: #aeaed4;
+    text-align: center;
+    font-size: 0.9em;
+    text-indent: 3em;
+}
+
+h1{
+    background-color: chartreuse;
+    color: rgba(31, 30, 25, 0.933);
+    border-top: 4px dashed #191970;
+    border-bottom: 4px dashed #e6e6fa;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #e6e6fa;
+}
+ 
+/* border-top: 4px dashed #191970; */
+
+
