@@ -1,0 +1,59 @@
+@charset "utf-8";
+body{
+    background-color: black;
+}
+body{
+   
+    background-image: url(https://assets.static-gm.com/Assets/642e8290-946c-450e-9225-537890d03fd4/caad5372-5e73-4363-8876-fe97c3ed7b5a/v-1638339016/Desktop.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+h1{
+    background-color: brown;
+    color: rgb(7, 6, 6);
+    border: 2px solid #541;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    height: 25px;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+h2{
+    background-color: rgb(52, 165, 42);
+    color: rgb(7, 6, 6);
+    border: 2px solid #541;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    height: 25px;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+p{
+    background-color: rgb(8, 8, 8);
+    color: white;
+    padding-top: 0%;
+    padding-left: 2px 1px;
+    font-size: large;
+}
+
+.botão{
+    background-color: rgb(3, 18, 104);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: dashed;
+    margin-left: 880px;
+   }
+
+h2{
+    margin: auto;
+    margin-top: auto;
+   }
+
