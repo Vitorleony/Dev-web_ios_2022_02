@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: #0f080177;
+    line-height: 1.6em;
+}
+
+#showcase h1 {
+    color: rgb(15, 194, 60);
+    font-size: 50px;
+    line-height: 1.2em;
+}
+
+#showcase p {
+    color: rgb(26, 24, 24);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    border: #4ca822 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#showcase {
+    background-image: url('Jeep-Compass-2022-frente-2.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#section-a {
+    padding: 40px;
+    background: white;
+    color: rgb(24, 21, 21);
+    text-align: center;
+}
+
+article{
+    padding: 40px;
+    background: rgba(19, 16, 16, 0.336);
+    color: black;
+}
