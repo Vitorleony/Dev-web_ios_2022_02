@@ -1,0 +1,52 @@
+p:first-child{
+    color: blue;
+}
+
+body{
+    background: rgba(red, green, blue,);
+    font-size: 25px;
+}
+
+.mylist li:first-child{
+    background-color: aquamarine;
+}
+
+.mylist li:nth-child(3){
+    background: purple;
+}
+
+.mylist li:last-child{
+    background: rgb(0, 128, 53);
+}
+
+a:hover{
+    background: violet;
+}
+
+#paragrafo::before{
+    content: "leia isso-";
+}
+
+#paragrafo-2::after{
+    content: "-leia mais";
+} 
+
+
+p::first-letter{
+    font-size: 200%;
+    color: aqua;    
+}
+
+#first::first-line{
+    background: lime;
+}
+
+p::selection{
+color: white;
+background: teal;
+}
+
+::selection{
+    color: blueviolet;
+    background: lawngreen;
+}
