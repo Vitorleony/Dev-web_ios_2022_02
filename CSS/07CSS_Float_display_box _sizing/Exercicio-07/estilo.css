@@ -9,6 +9,7 @@ body{
     padding: 30px;
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
+    background: #000;
 }
 
 img{
@@ -20,7 +21,7 @@ img{
     border: 2px solid #000;
     margin: 50px 0;
     padding: 50px;
-    background: #faf2f2;
+    background: #8dbae763;
     border-radius: 50px;
 }
 
@@ -39,4 +40,9 @@ img{
 
 #container-right figure{
     margin-left: 50px;
+}
+
+footer{
+    background: #000;
+    color: white;
 }
