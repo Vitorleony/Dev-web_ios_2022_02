@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body{
+   background-image: url(./IMG-EXC8/img-3.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: rgb(36, 31, 31);
+    
+}
+
+.container{
+        display: flex;
+        align-items: center;
+        border: 2px solid #000;
+        margin: 50px 60px;
+        padding: 50px;
+        background: #8dbae763;
+}
+
+img{
+    margin: 5px 10px;
+}
+
+
+
+.resumo::first-line{
+    background-color: #314A20;
+    color: #c1c2bc;
+}
+
+.info{
+    margin-left: 5%;
+}
+
+.info p{
+    margin-bottom: 50px;
+    font-size: 1.2em;
+}
+
+.info h2{
+    font-size: 1.9em;
+    color: #533618;
+}
+
+.info h2{
+    font-size: 1.9em;
+    color: #533618;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 3px 20px;
+    font-size: 0.9em;
+    background-color: #725436;
+    color: #f2f2f2;
+    font-weight: 600;
+    margin-left: 5px;
+    border-radius: 20px;
+    transition: ease-in 200ms;
+}
+
+.btn:hover{
+    background-color: #533618;
+    color: #bbbbbb;
+}
+
+.content:nth-child(2){
+    margin-bottom: 50px;
+}
+
+/* NOTICIAS */
+
+.noticia{
+    display: flex;
+}
+
+.noticia img{
+    margin-right: 20px;
+}
+
+.btnNoticias{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    background-color: orangered;
+    color: #161515;
+    font-weight: 600;
+    border-radius: 20px;
+    transition: ease-in 200ms;
+}
+
+.btnNoticias:hover{
+    background-color: #1a2711;
+    color: #bbbbbb;
+}
+
+.content:nth-child(3){
+    display: flex;
+    flex-direction: column;
+}
+
+.noticia{
+    margin: 30px 0;
+    align-items: center;
+    display: flex;
+}
+
+.noticia img{
+    width: 200px;
+}
+
+.noticia-info{
+    margin-bottom: 50px;
+}
+
+.noticia-info::first-letter{
+    font-size: 170%;
+    color: #533618;
+}
+
+.noticia div{
+    margin-bottom: 70px;
+}
+
+.content:nth-child(3){
+    margin-bottom: 50px;
+}
+
+.rodape{
+    background-color: #2e6464;
+    padding: 70px 50px; 
+    color: #c1c2bc;
+    font-size: 1.5em;
+    text-align: center;
+}
