@@ -88,3 +88,23 @@ img{
 .btn:hover{
     opacity: 0.8;
 }
+
+.rodape{
+    background: rgb(233, 193, 193);
+    padding: 70px 50px; 
+    color: #0f0f0c;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+@media(max-width:768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media(max-width:768px) {
+    .btn {
+        width: 100%;
+    }
+}

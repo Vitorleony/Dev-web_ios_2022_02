@@ -27,10 +27,11 @@ h1{
 
 img{
     margin: 5px 10px;
+    cursor: pointer;
 }
 
-img:ouver{
-    transition: ease-in 200ms;
+img:hover{
+    opacity: 0.3;
 }
 
 
