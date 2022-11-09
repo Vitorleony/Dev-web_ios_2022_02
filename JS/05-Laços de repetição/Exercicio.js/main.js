@@ -1,31 +1,26 @@
- let A = 1;
- while (A <= 50) {
- console.log(` ${A}`);
- A++;
- }
-
-
-let cont = 10;
- while (cont >= 0) {
-console.log(`Valor = ${cont}`);
-cont--;
+// while-Exercicio 1
+let contador = 1;
+while (contador <= 50) {
+    console.log(`Valor = ${contador}`);
+    contador++;
 }
 
 
-let contador = 2;
-    while(contador <= 100) {
-        console.log(contador);
-        contador = contador + 2; // incrementa de dois em dois
-    }
-    console.log("FIM");
+// do-while-Exercicio 2
+let contagem = 10,
+    regressiva = '';
 
-    let result = '';
-let i = 0;
 do {
-  i += 1;
-  result += `${i} `;
-}
-while (i > 0 && i < 5);
-// Despite i === 0 this will still loop as it starts off without the test
+    regressiva += ` contagem ${contagem}\n`;
+    contagem--;
+} while (contagem >= 0);
+console.log(regressiva);
 
-console.log(result);
+// pares-Exercicio 3
+
+for (let i = 1; i < 100; i++) {
+    if ( i % 2 == 1) {
+        i = i + 1;
+    }
+    console.log(` Números pares ${i}`);
+}
