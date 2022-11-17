@@ -1,48 +1,52 @@
-let aluno = [
+const alunos = [
     {
-        Nome: 'Vitor',
-        Nota: [9, 7, 8],
+        Nome: "Lucas",
+        Idade: "17 Anos",
+        Nota: [9, 6, 8, 7],
+        Endereço: {
+            Rua: 'Rua Macuxis',
+            Numero: 483,
+            Cidade: 'São Paulo',
+            Estado: 'SP',
+        },
+        Escola: "Cepav",
+        Série: "3° do Ensino Médio",
+        Sala: "3",
+        Responsavel: "Tania"
+    },
+    {
+        Nome: "Vitor",
+        Idade: "17 Anos",
+        Nota: [5, 7, 6, 8],
         Endereço: {
             Rua: 'Arroio do tigre',
-            Numero: '294',
+            Numero: 294,
             Cidade: 'São Paulo',
             Estado: 'SP',
         },
-        Escola: 'Fracisco',
-        Série: '5 Série',
-        sala: 'A',
-        Responsavel: 'Ana Alice',
-    },
+        Escola: "Cloves Graciano",
+        Série: "3° do Ensino Médio",
+        Sala: "7",
+        Responsavel: "Jair Francisco"
 
-    {
-        Nome: 'Marcelo',
-        Nota: [2, 1, 0],
-        Endereço: {
-            Rua: 'Cantidinho sanpaio',
-            Numero: '1549',
-            Cidade: 'São Paulo',
-            Estado: 'SP',
-        },
-        Escola: 'Taipas',
-        Série: '5 Série',
-        sala: 'D',
-        Responsavel: 'Maria',
     },
-
     {
-        Nome: 'Lucas',
-        Nota: [10, 8, 7],
+        Nome: "Ana",
+        Idade: "17 Anos",
+        Nota: [10, 7, 9, 6],
         Endereço: {
-            Rua: ' Rua Macuxis',
-            Numero: '483',
+            Rua: 'Avenida Imirim',
+            Numero: 1000,
             Cidade: 'São Paulo',
             Estado: 'SP',
         },
-        Escola: 'cepav',
-        Série: '2° do ensino médio',
-        sala: 'B',
-        Responsavel: 'Tania',
+        Escola: "Leme do Prado",
+        Série: "3° do Ensino Médio",
+        Sala: "10",
+        Responsavel: "Juliana"
+
     },
 ];
-
-console.log(aluno)
+console.log(alunos);
+console.log(alunos[1].texto);
+console.log(alunos[2].Nome, alunos[2].Nota, alunos[2].Endereço);
